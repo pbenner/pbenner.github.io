@@ -81,3 +81,8 @@ In Nicole J. Saam and Norman Braun, editors, Handbuch Modellbildung und Simulati
 - S. Poppe, P. Benner, and T. Elze. *A predictive approach to nonparametric inference for adaptive sequential sampling of psychophysical experiments*. Journal of Mathematical Psychology, 56(3):179–195, 2012.
 - R. Stoop, S. Martignoli, P. Benner, R. Stoop, and Y. Uwate. *Shrimps: Occurrence, scaling and relevance*. International Journal of Bifurcation and Chaos, 22(10), 2012.
 - R. Stoop, P. Benner, and Y. Uwate. *Real-world existence and origins of global shrimp organization on spirals*. Physical Review Letters, 105(7):074102, 2010.
+
+## Statistics Resources
+
+- Research Articles by E. T. Jaynes [[Link]](https://bayes.wustl.edu/etj/node1.html)
+- Introduction to Statistical Learning with Applications in GNU-R/Python [[Link]](https://www.statlearning.com/)
