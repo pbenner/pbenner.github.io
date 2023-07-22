@@ -22,6 +22,11 @@ High-throughput material simulations are an integral part of modern materials sc
 1. Choudhary, K., DeCost, B. Atomistic Line Graph Neural Network for improved materials property predictions. npj Comput Mater 7, (2021).
 1. Katz, G.; Caragea, C.; Shabtai, A. Vertical Ensemble Co-Training for Text Classification. ACM Trans. Intell. Syst. Technol. 2018, 9, 21:1–21:23”
 
+### Invertible Neural Networks for Small Angle Scattering ([S. Laskina](https://bamescience.github.io/team/sofya), [B. Pauw](https://lookingatnothing.com))
+
+Scattering techniques, such as small-angle X-ray or neutron scattering, provide information on the fine structure of materials by measuring the intensity of waves scattered via an interference process. While this interference process can be accurately described in mathematics as a Fourier transform of the probed electron density, not all the information contained therein is recorded in the measurement process. The information loss is of such a magnitude that the retrieval of practically-relevant structural information falls under the class of inverse problems. For analyzing single datasets, a bespoken model can usually be constructed. For processing larger quantities of data, however, such as collected at well-functioning laboratory instruments or large facilities, an initial clustering and indication of the class and size of scatterers involved would already be a good step forwards. A reliable, universal clustering method does not exist as yet. We attempt to address this problem using invertible neural networks trained on theoretical scatterers with their analytical SAS intensities. Somewhat surprisingly, our method is able to reliably identify size and shape parameters. This shows that invertible neural networks may have large potential to help interpret small-angle scattering measurements. Ideally, we hope that this work is a first step towards a fully automated SAS data processing workflow.
+
+
 ## Lectures
 
 ### Machine Learning in Bioinformatics - FU Berlin
