@@ -1,4 +1,4 @@
-# Lectures
+## Lectures
 
 ### Machine Learning in Bioinformatics - FU Berlin
 
@@ -14,7 +14,7 @@
 - Explainable AI [[Slides]](data/mlb-slides/16_-_xai.pdf)
 - Decision Making [[Slides]](data/mlb-slides/17_-_decision_making.pdf)
 
-# Software projects
+## Software projects
 
 ### Numerics, Statistics, ML
 
@@ -57,7 +57,7 @@
 - Go threadpool library that allows nested queuing
   [[Github]](https://github.com/pbenner/threadpool)
 
-# Publications
+## Publications
 
 - A. Naik, C. Ertural, N. Dhamrait, P, Benner, J. George. *A Quantum-Chemical Bonding Database for Solid-State Materials.* arXiv preprint arXiv:2304.02726 (2023).
 - B. R. Pauw, S. Laskina, A. Naik, G. J. Smales, J. George, I. Breßler, P. Benner. *``Ultima Ratio'': Simulating wide-range X-ray scattering and diffraction.* arXiv preprint arXiv:2303.13435 (2023)
