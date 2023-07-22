@@ -4,12 +4,11 @@
 - A. Naik, C. Ertural, N. Dhamrait, P, Benner, J. George. *A Quantum-Chemical Bonding Database for Solid-State Materials.* arXiv preprint arXiv:2304.02726 (2023).
 - B. R. Pauw, S. Laskina, A. Naik, G. J. Smales, J. George, I. Breßler, P. Benner. *``Ultima Ratio'': Simulating wide-range X-ray scattering and diffraction.* arXiv preprint arXiv:2303.13435 (2023)
 - Y. Nowatzky, P. Benner, K. Reinert, T. Muth. *Mistle: bringing spectral library predictions to metaproteomics with an efficient search index.* bioRxiv (2022)
-- DIN, DKE (2022): \emph{Deutsche Normungsroadmap Künstliche Intelligenz (Ausgabe 2)*; Translation: German Standardization Roadmap Artificial Intelligence (Issue 2); URL: www.din.de/go/normungsroadmapki
 - P. Benner, and M. Vingron. *Quantifying the Tissue-Specific Regulatory Information within Enhancer and Promoter DNA Sequences.* NAR Genomics and Bioinformatics 3.4 (2021)
 - P. Benner. *Computing leapfrog regularization paths with applications to large-scale k-mer logistic regression.* Journal of Computational Biology 28.6 (2021): 560-569.
 - P. Benner, and M. Vingron. *ModHMM: A modular supra-Bayesian genome segmentation method.* Journal of Computational Biology 27.4 (2020): 442-457.
 - T. Zehnder, P. Benner, and M. Vingron. *Predicting enhancers in mammalian genomes using supervised hidden Markov models.* BMC Bioinformatics 20(1):157, 2019
-- A. Ramisch, V. Heinrich, \dots, P. Benner, \dots *CRUP: A comprehensive framework to predict condition-specific regulatory units.* Genome Biol 20, 227 (2019) doi:10.1186/s13059-019-1860-7
+- A. Ramisch, V. Heinrich, ..., P. Benner, ... *CRUP: A comprehensive framework to predict condition-specific regulatory units.* Genome Biol 20, 227 (2019) doi:10.1186/s13059-019-1860-7
 - S. Schöne, M. Bothe, E. Einfeldt, M. Borschiwer and P. Benner, M. Vingron, Martin, M. Thomas-Chollier, and S. Meijsing. *Synthetic STARR-seq reveals how DNA shape and sequence modulate transcriptional output and noise*. PLoS Genetics, 14(11):e1007793, 2018
 - P. Benner, M. Bacák, and P.-Y. Bourguignon. *Point estimates in phylogenetic reconstructions*. Bioinformatics, 30(17):i534-i540, 2014.
 - P. Benner and S. Poppe. *Stochastische Prozesse und Bayessches Schätzen*.
