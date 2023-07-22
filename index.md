@@ -1,3 +1,6 @@
+## Lectures
+
+- Benchmarking [[Slides]](data/mlb-slides/02_-_benchmarking.pdf)
 
 ## Publications
 
