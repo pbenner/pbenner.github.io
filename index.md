@@ -2,6 +2,16 @@ I'm a researcher in statistics and machine learning for materials science and bi
 
 ## Selected Ongoing Research Projects
 
+### Fragmentation site prediction for non-targeted metabolomics using graph neural networks ([Y. Nowatzky](https://bamescience.github.io/team/yannek), [T. Muth](https://bamescience.github.io/team/thilo/))
+
+The potential of non-targeted metabolomics to uncover new biological insights, identify biomarkers or monitor clinical disease progression cannot be emphasized enough. However, spectral reference data is incomplete, and most compound mass spectra in non-targeted metabolomics experiments cannot be annotated with spectral search alone. At the same time, the identification and classification of unknown compounds are far from trivial. One reason is the current lack of understanding about how new molecules will fragment when subjected to tandem mass spectrometry (MS/MS). Existing in silico fragmentation methods, such as MetFrag [1] and CFM-ID [2], imitate the fragmentation process but their accuracy is limited due to the way they integrate and engineer molecular features. We investigate the ability of graph neural networks (GNNs) to learn and recognize relevant structural groups associated with bond cleavage during MS/MS.
+
+##### References
+1. Ruttkies, Christoph, et al. "MetFrag relaunched: incorporating strategies beyond in silico fragmentation." Journal of cheminformatics 8.1 (2016): 1-16.
+1. Wang, Fei, et al. "CFM-ID 4.0: more accurate ESIMS/MS spectral prediction and compound identification." Analytical chemistry 93.34 (2021): 11692- 11700.
+1. SE Stein. ‘Mass Spectral Database’. In: National Institute of Standards and Technology (NIST) (2017)
+1. Mingxun Wang, et al. "Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking." Nature biotechnology 34, no. 8 (2016): 828.
+
 ### Crystal Synthesizability ([S. Amariamir](https://bamescience.github.io/team/sasan/), [J. George](https://jageo.github.io/))
 
 High-throughput material simulations are an integral part of modern materials science. However, there is no straightforward way to recognize synthesizable materials before feeding them to simulation pipelines. The common heuristics for distinguishing stable crystals, such as the Pauling Rules, have been shown to be outdated [1]. Besides stability, reaction kinetics and technological limitations also affect synthesizability. In this work, we built a machine learning model that predicts the synthesizability of a given crystal. This can be formulated as a classification problem with positive (experimental) data, and unlabeled (theoretical) data. We take an iterative Positive and Unlabeled (PU) learning approach to build and train our model. Two deep learning classifiers are used, the SchNetPack [2] and ALIGNN [3]. We combine their power via co-training [4] to increase prediction reliability. Our work has multiple important applications, for example, filtering structural predictions of high-throughput simulations for synthesizability.
