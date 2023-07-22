@@ -86,3 +86,6 @@ In Nicole J. Saam and Norman Braun, editors, Handbuch Modellbildung und Simulati
 
 - Research Articles by E. T. Jaynes [[Link]](https://bayes.wustl.edu/etj/node1.html)
 - Introduction to Statistical Learning with Applications in GNU-R/Python [[Link]](https://www.statlearning.com/)
+- Christian Robert's Blog [[Link]](https://xianblog.wordpress.com/)
+- Interpretable Machine Learning [[Link]](https://christophm.github.io/interpretable-ml-book/)
+- Statistical Rethinking, Lecture Series by Richard McElreath [[Link]](https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
