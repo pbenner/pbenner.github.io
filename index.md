@@ -1,5 +1,17 @@
 I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
 
+## Selected Ongoing Research Projects
+
+### Crystal Synthesizability ([S. Amariamir](https://bamescience.github.io/team/sasan/), [J. George](https://jageo.github.io/))
+
+High-throughput material simulations are an integral part of modern materials science. However, there is no straightforward way to recognize synthesizable materials before feeding them to simulation pipelines. The common heuristics for distinguishing stable crystals, such as the Pauling Rules, have been shown to be outdated [1]. Besides stability, reaction kinetics and technological limitations also affect synthesizability. In this work, we built a machine learning model that predicts the synthesizability of a given crystal. This can be formulated as a classification problem with positive (experimental) data, and unlabeled (theoretical) data. We take an iterative Positive and Unlabeled (PU) learning approach to build and train our model. Two deep learning classifiers are used, the SchNetPack [2] and ALIGNN [3]. We combine their power via co-training [4] to increase prediction reliability. Our work has multiple important applications, for example, filtering structural predictions of high-throughput simulations for synthesizability.
+
+##### References
+1. J. George, D. Waroquiers, D. Di Stefano, G. Petretto, G. Rignanese, and G. Hautier, “The Limited Predictive Power of the Pauling Rules,” Angew. Chem., vol. 132, no. 19, pp. 7639–7645,May 2020.
+1. K. T. Schütt et al. “SchNetPack: A Deep Learning Toolbox For Atomistic Systems,” J. Chem. Theory Comput., vol. 15, no. 1, pp. 448–455, Jan. 2019.
+1. Choudhary, K., DeCost, B. Atomistic Line Graph Neural Network for improved materials property predictions. npj Comput Mater 7, (2021).
+1. Katz, G.; Caragea, C.; Shabtai, A. Vertical Ensemble Co-Training for Text Classification. ACM Trans. Intell. Syst. Technol. 2018, 9, 21:1–21:23”
+
 ## Lectures
 
 ### Machine Learning in Bioinformatics - FU Berlin
