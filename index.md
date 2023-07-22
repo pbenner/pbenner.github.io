@@ -34,20 +34,29 @@ In Nicole J. Saam and Norman Braun, editors, Handbuch Modellbildung und Simulati
 
 ## Software projects
 
+### Numerics, Statistics, ML
+
 - Leapfrog regularization for pytorch
   [[Github]](https://github.com/pbenner/pyleapfrog)
 - Numerical optimization, statistical estimation, and automatic differentiation library
   [[Github]](https://github.com/pbenner/autodiff)
 - Variational inference on factor graphs
   [[Github]](https://github.com/pbenner/variational-fg)
-- Bioinformatics library
-  [[Github]](https://github.com/pbenner/gonetics)
-- Implementation of basic cryptographic methods
-  [[Github]](https://github.com/pbenner/gocrypt)
 - GNU-R Gaussian process regression library
   [[Github]](https://github.com/pbenner/gp.regression)
 - High-dimensional logistic regression with k-mers
   [[Github]](https://github.com/pbenner/kmerLr)
+- Double descent phenomena
+  [[Github]](https://github.com/pbenner/double-descent)
+- Compute performance measures of classification results
+  [[Github]](https://github.com/pbenner/classifierPerformance)
+- Active learning library
+  [[Github]](https://github.com/pbenner/adaptive-sampling)
+
+### Bioinformatics
+
+- Bioinformatics library
+  [[Github]](https://github.com/pbenner/gonetics)
 - Supra-Bayesian genome segmentation method
   [[Github]](https://github.com/pbenner/modhmm)
 - Statistical analysis of whole genome sequencing data
@@ -58,3 +67,10 @@ In Nicole J. Saam and Norman Braun, editors, Handbuch Modellbildung und Simulati
   [[Github]](https://github.com/pbenner/tfbayes)
 - Prolog implementation of all steps involved in translation and transcription of the genetic code. The program allows to explore alternative genetic codes by manipulating individual components of the transcription and translation mechanisms
   [[Github]](https://github.com/pbenner/xenocode)
+
+### Other
+
+- Implementation of basic cryptographic methods
+  [[Github]](https://github.com/pbenner/gocrypt)
+- Go threadpool library that allows nested queuing
+  [[Github]](https://github.com/pbenner/threadpool)
