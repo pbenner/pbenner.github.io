@@ -2,19 +2,23 @@
 
 ### Machine Learning in Bioinformatics - FU Berlin
 
+Machine Learning Models:
 - From Linear Regression to Kernel Regression [[Slides]](data/mlb-slides/08_-_kernel_regression.pdf)
 - Support Vector Machines [[Slides]](data/mlb-slides/09_-_svm.pdf)
 - From Linear and Logistic Regression to Artificial Neural Networks [[Slides]](data/mlb-slides/10_-_ann.pdf)
 - Neural Network Architectures [[Slides]](data/mlb-slides/11_-_ann_architectures.pdf)
 - Graph Neural Networks [[Slides]](data/mlb-slides/14_-_gnn.pdf)
 - Invertible Neural Networks [[Slides]](data/mlb-slides/15_-_inn.pdf)
-- Explainable AI [[Slides]](data/mlb-slides/16_-_xai.pdf)
 
+Feature and Model Selection, Bias-Variance Tradeoff, Regularization, Model Complexity, Double Descent:
 - Model Selection [[Slides]](data/mlb-slides/12_-_model_selection.pdf)
 - Feature Selection [[Slides]](data/mlb-slides/13_-_feature_selection.pdf)
 
+Model Evaluation and Explainability:
 - Benchmarking [[Slides]](data/mlb-slides/02_-_benchmarking.pdf)
+- Explainable AI [[Slides]](data/mlb-slides/16_-_xai.pdf)
 
+Statistics background:
 - Decision Making under Uncertainty [[Slides]](data/mlb-slides/17_-_decision_making.pdf)
 
 ## Software projects
