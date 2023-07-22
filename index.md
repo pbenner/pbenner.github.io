@@ -1,3 +1,5 @@
+I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
+
 ## Lectures
 
 ### Machine Learning in Bioinformatics - FU Berlin
