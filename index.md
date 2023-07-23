@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
 
 ## Selected Research Projects
