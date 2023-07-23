@@ -35,7 +35,7 @@ Recent efforts to measure epigenetic marks across a wide variety of different ce
 
 ### Machine Learning in Bioinformatics - FU Berlin
 
-[Lecture](https://www.fu-berlin.de/vv/en/lv/737408?m=428903&pc=575084&sm=682080) at Free University Berlin together with [H. Richard](http://www.lgm.upmc.fr/hrichard/)
+[Lecture](https://www.fu-berlin.de/vv/en/lv/737408?m=428903&pc=575084&sm=682080) at the Mathematics and Computer Science Department of [Free University of Berlin](https://www.mi.fu-berlin.de/) together with [H. Richard](http://www.lgm.upmc.fr/hrichard/)
 
 Machine Learning Models:
 - From Linear Regression to Kernel Regression [[Slides]](data/mlb-slides/08_-_kernel_regression.pdf)
