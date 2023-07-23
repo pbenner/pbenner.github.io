@@ -1,6 +1,6 @@
 I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
 
-## Selected Ongoing Research Projects
+## Selected Research Projects
 
 ### Fragmentation site prediction for non-targeted metabolomics using graph neural networks ([Y. Nowatzky](https://bamescience.github.io/team/yannek), [T. Muth](https://bamescience.github.io/team/thilo/))
 
@@ -26,10 +26,16 @@ High-throughput material simulations are an integral part of modern materials sc
 
 Scattering techniques, such as small-angle X-ray or neutron scattering, provide information on the fine structure of materials by measuring the intensity of waves scattered via an interference process. While this interference process can be accurately described in mathematics as a Fourier transform of the probed electron density, not all the information contained therein is recorded in the measurement process. The information loss is of such a magnitude that the retrieval of practically-relevant structural information falls under the class of inverse problems. For analyzing single datasets, a bespoken model can usually be constructed. For processing larger quantities of data, however, such as collected at well-functioning laboratory instruments or large facilities, an initial clustering and indication of the class and size of scatterers involved would already be a good step forwards. A reliable, universal clustering method does not exist as yet. We attempt to address this problem using invertible neural networks trained on theoretical scatterers with their analytical SAS intensities. Somewhat surprisingly, our method is able to reliably identify size and shape parameters. This shows that invertible neural networks may have large potential to help interpret small-angle scattering measurements. Ideally, we hope that this work is a first step towards a fully automated SAS data processing workflow.
 
+### Tissue-Specific Regulatory Information within Enhancer DNA Sequences ([M. Vingron](https://www.molgen.mpg.de/3897383/martin-vingron))
+
+Recent efforts to measure epigenetic marks across a wide variety of different cell types and tissues provide insights into the cell type-specific regulatory landscape. We use this data to study if there exists a correlate of epigenetic signals in the DNA sequence of enhancers and explore with computational methods to what degree such sequence patterns can be used to predict cell type-specific regulatory activity. By constructing classifiers that predict in which tissues enhancers are active, we are able to identify sequence features that might be recognized by the cell in order to regulate gene expression. While classification performances vary greatly between tissues, we show examples where our classifiers correctly predict tissue specific regulation from sequence alone. We also show that many of the informative patterns indeed harbor transcription factor footprints.
+
 
 ## Lectures
 
 ### Machine Learning in Bioinformatics - FU Berlin
+
+[Lecture](https://www.fu-berlin.de/vv/en/lv/737408?m=428903&pc=575084&sm=682080) together with [H. Richard](http://www.lgm.upmc.fr/hrichard/)
 
 Machine Learning Models:
 - From Linear Regression to Kernel Regression [[Slides]](data/mlb-slides/08_-_kernel_regression.pdf)
