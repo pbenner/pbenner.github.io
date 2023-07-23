@@ -30,6 +30,14 @@ Scattering techniques, such as small-angle X-ray or neutron scattering, provide 
 
 Recent efforts to measure epigenetic marks across a wide variety of different cell types and tissues provide insights into the cell type-specific regulatory landscape. We use this data to study if there exists a correlate of epigenetic signals in the DNA sequence of enhancers and explore with computational methods to what degree such sequence patterns can be used to predict cell type-specific regulatory activity. By constructing classifiers that predict in which tissues enhancers are active, we are able to identify sequence features that might be recognized by the cell in order to regulate gene expression. While classification performances vary greatly between tissues, we show examples where our classifiers correctly predict tissue specific regulation from sequence alone. We also show that many of the informative patterns indeed harbor transcription factor footprints.
 
+1. P. Benner, and M. Vingron. *Quantifying the Tissue-Specific Regulatory Information within Enhancer and Promoter DNA Sequences.* NAR Genomics and Bioinformatics 3.4 (2021)
+1. P. Benner, and M. Vingron. *ModHMM: A modular supra-Bayesian genome segmentation method.* Journal of Computational Biology 27.4 (2020): 442-457.
+
+### Algorithms for Computing Regularization Paths
+
+High-dimensional statistics deals with statistical inference when the number of parameters or features $p$ exceeds the number of observations $n$ (i.e. $p \gg n$). In this case, the parameter space must be constrained either by regularization or by selecting a small subset of $m \le n$ features. Feature selection through $\ell_1$-regularization combines the benefits of both approaches and has proven to yield good results in practice. However, the functional relation between the regularization strength $\lambda$ and the number of selected features $m$ is difficult to determine. Hence, parameters are typically estimated for all possible regularization strengths $\lambda$. These so-called regularization paths can be expensive to compute and most solutions may not even be of interest to the problem at hand. As an alternative, an algorithm is proposed that determines the $\ell_1$-regularization strength $\lambda$ iteratively for a fixed $m$. The algorithm can be used to compute leapfrog regularization paths by subsequently increasing $m$.
+
+1. P. Benner. *Computing leapfrog regularization paths with applications to large-scale k-mer logistic regression.* Journal of Computational Biology 28.6 (2021): 560-569.
 
 ## Lectures
 
