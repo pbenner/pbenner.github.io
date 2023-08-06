@@ -113,7 +113,7 @@ Statistics background:
 
 - A. Naik, C. Ertural, N. Dhamrait, P, Benner, J. George. *A Quantum-Chemical Bonding Database for Solid-State Materials.* arXiv preprint arXiv:2304.02726 (2023).
 - B. R. Pauw, S. Laskina, A. Naik, G. J. Smales, J. George, I. Breßler, P. Benner. *``Ultima Ratio'': Simulating wide-range X-ray scattering and diffraction.* arXiv preprint arXiv:2303.13435 (2023)
-- Y. Nowatzky, P. Benner, K. Reinert, T. Muth. *Mistle: bringing spectral library predictions to metaproteomics with an efficient search index.* bioRxiv (2022)
+- Y. Nowatzky, P. Benner, K. Reinert, T. Muth. *Mistle: bringing spectral library predictions to metaproteomics with an efficient search index.* Bioinformatics, btad376 (2023)
 - P. Benner, and M. Vingron. *Quantifying the Tissue-Specific Regulatory Information within Enhancer and Promoter DNA Sequences.* NAR Genomics and Bioinformatics 3.4 (2021)
 - P. Benner. *Computing leapfrog regularization paths with applications to large-scale k-mer logistic regression.* Journal of Computational Biology 28.6 (2021): 560-569.
 - P. Benner, and M. Vingron. *ModHMM: A modular supra-Bayesian genome segmentation method.* Journal of Computational Biology 27.4 (2020): 442-457.
