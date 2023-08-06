@@ -84,8 +84,12 @@ Statistics background:
   [[Github]](https://github.com/pbenner/double-descent)
 - Compute performance measures of classification results
   [[Github]](https://github.com/pbenner/classifierPerformance)
-- Active learning library
+- Active learning / adaptive sampling library for one-dimensional ordinal predictor variables and categorical responses
   [[Github]](https://github.com/pbenner/adaptive-sampling)
+- Active learning library based on Gaussian processes
+  [[Github]](https://github.com/pbenner/adaptive-sampling.gp)
+- Backpropagation for dense networks in Lisp
+  [[Github]](https://github.com/pbenner/lisp-backprop)
 
 ### Bioinformatics
 
