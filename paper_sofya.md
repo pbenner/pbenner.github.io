@@ -62,7 +62,7 @@ classes can be determined remains an open question. Even an initial
 guess, however, would be helpful in tackling the vast amounts of data
 currently collected in laboratories and large facilities worldwide.
 
-Invertible neural networks (INNs) [@ardizzone2018] [@behrmann2019][1] are a
+Invertible neural networks (INNs) [1; 2] are a
 promising alternative to existing methods for estimating material
 characterstics from SAS measurements. These methods specifically address
 surjective problems, where the measurement data is not sufficient for
@@ -75,7 +75,7 @@ sufficiently large set of training data, which is representative for the
 experimental setup at hand. In addition, INNs are probabilistic models
 and their invaluable strength is that they allow to recover a full
 distribution of feasible solutions. Other machine learning models have
-been applied to SAS data [@tomaszewski2021; @scherdel2021; @roding2022],
+been applied to SAS data [3; 4; 5],
 but they do not address the surjective nature of the inverse problem.
 
 In this study, we consider small-angle scattering data of isotropically
@@ -156,8 +156,8 @@ Prediction of size and shape parameters
 In our approach, we specifically want to address the surjectivity of the
 inverse scattering problem. There exist several machine learning models
 that are designed for inverse problems, the most important, among
-others, are i-ResNet [@behrmann2019] and conditional RNVP
-[@ardizzone2018]. The i-ResNet approach puts constraints on the Jacobian
+others, are i-ResNet [2] and conditional RNVP
+[1]. The i-ResNet approach puts constraints on the Jacobian
 of the neural network model, thereby allowing the computation of the
 inverse through simple fixed point iterations. The disadvantage of this
 approach is on the one hand the computational cost and on the other hand
@@ -168,7 +168,7 @@ solutions that can be aggregated into a mean prediction and an
 uncertainty measure such as the standard deviation. A full description
 of the model and our modifications is provided in Section
 [4](#sec:methods). Our software package relies on the implementation of an existing RNVP model
-[@freia].
+[6].
 
 To evaluate our model on the synthetic SAS data, we randomly divided the
 data into train (90%) and test (10%) data. On the training data, we
@@ -229,7 +229,7 @@ For surjective problems, the output $y$ contains less information than
 the input $x$ of the INN model. Conditional RNVPs circumvent this
 problem by using an augmented output $\tilde{y} = [y, z] = f(x)$, where
 $z$ is a latent representation of the lost information that is learned
-during model training [@ardizzone2018]. The inverse of an output $y$ is
+during model training [1]. The inverse of an output $y$ is
 computed by first randomly drawing a value $z$ and then computing the
 inverse $x = g([y, z])$. Multiple solutions $x$ can be computed by
 repeating this process, which then allows to provide summary statistics,
@@ -253,4 +253,14 @@ innovation programme under the SINE2020 project, grant agreement No
 References
 ==========
 
-[1] Jens Behrmann, Will Grathwohl, Ricky TQ Chen, David Duvenaud, and Jörn-Henrik Jacobsen. *Invertible residual networks. In International Conference on Machine Learning*, pages 573–582. PMLR, 2019.
+[1] Lynton Ardizzone, Jakob Kruse, Sebastian Wirkert, Daniel Rahner, Eric W Pellegrini, Ralf S Klessen, Lena Maier-Hein, Carsten Rother, and Ullrich Köthe. *Analyzing inverse problems with invertible neural networks*. arXiv preprint arXiv:1808.04730, 2018.
+
+[2] Jens Behrmann, Will Grathwohl, Ricky TQ Chen, David Duvenaud, and Jörn-Henrik Jacobsen. *Invertible residual networks. In International Conference on Machine Learning*, pages 573–582. PMLR, 2019.
+
+[3] Piotr Tomaszewski, Shun Yu, Markus Borg, and Jerk Rönnols. *Machine learning-assisted analysis of small angle x-ray scattering*. In 2021 Swedish Workshop on Data Science (SweDS), pages 1–6. IEEE, 2021.
+
+[4] Christian Scherdel, Eddi Miller, Gudrun Reichenauer, and Jan Schmitt. *Advances in the development of sol-gel materials combining small-angle x-ray scattering (saxs) and machine learning (ml)*. Processes, 9(4):672, 2021. 10
+
+[5] Magnus Röding, Piotr Tomaszewski, Shun Yu, Markus Borg, and Jerk Rönnols. *Machine learning-accelerated small-angle x-ray scattering analysis of disordered two-and three-phase materials*. Frontiers in Materials, 9:956839, 2022.
+
+[6] Lynton Ardizzone, Till Bungert, Felix Draxler, Ullrich Köthe, Jakob Kruse, Robert Schmier, and Peter Sorrenson. *Framework for Easily Invertible Architectures (FrEIA)*, 2018-2022. URL [https://github.com/vislearn/FrEIA](https://github.com/vislearn/FrEIA).
