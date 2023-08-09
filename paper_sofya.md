@@ -1,4 +1,8 @@
-Abstract {#abstract .unnumbered}
+# Determining Size and Shape Parameters from Small-Angle Scattering Data using Invertible Neural Networks
+
+
+
+Abstract
 ========
 
 Scattering techniques, such as small-angle X-ray or neutron scattering,
@@ -33,7 +37,7 @@ Introduction
 Since its inception in the very beginning of the 20th century,
 small-angle scattering methods have provided some insight into the fine
 structure of materials, elucidating structures with dimensions including
-(and occasionally exceeding) 1-100 nm. \... While the experiments are
+(and occasionally exceeding) 1-100 nm. While the experiments are
 straightforward, the data correction and analysis is not. With
 increasing amounts of data flowing from the instruments, an urgent need
 arises for the development of automatable analysis solutions.
@@ -100,13 +104,13 @@ restrict the data set to three shapes, namely, spheres, hardspheres, and
 cylinders. For each of the shapes, we created 5000 samples.
 
 ::: {#tab:1}
-                          cylinder                   sphere                     hard sphere
-  ----------------------- -------------------------- -------------------------- --------------------------
-  radius                  $\mathcal{N}(2, 1)$        $\mathcal{N}(2, 1)$        $\mathcal{N}(2, 1)$
-  radius polydispersity   $\mathcal{N}(0.1, 0.03)$   $\mathcal{N}(0.1, 0.03)$   $\mathcal{N}(0.1, 0.03)$
-  length                  $\mathcal{N}(10, 5)$       ---                        ---
-  length polydispersity   $\mathcal{N}(0.1, 0.03)$   ---                        ---
-  volume fraction         $\mathcal{N}(0.2, 0.01)$   $\mathcal{N}(0.2, 0.01)$   $\mathcal{N}(0.2, 0.01)$
+                         |cylinder                  |sphere                    |hard sphere
+  -----------------------|--------------------------|--------------------------|--------------------------
+  radius                 |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$
+  radius polydispersity  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$
+  length                 |$\mathcal{N}(10, 5)$      |---                       |---
+  length polydispersity  |$\mathcal{N}(0.1, 0.03)$  |---                       |---
+  volume fraction        |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$
 
   : Distributions of parameters for generating synthetic data. The
   normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by
