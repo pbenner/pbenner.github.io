@@ -1,6 +1,9 @@
 # Determining Size and Shape Parameters from Small-Angle Scattering Data using Invertible Neural Networks
 
-
+Sofya Laskina, Brian R. Pauw, and Philipp Benner
+: Federal Institute for Materials Research and Testing (BAM), Unter den
+Eichen 87, 12205 Berlin, Germany
+: philipp.benner@bam.de, brian.pauw@bam.de
 
 Abstract
 ========
@@ -30,6 +33,8 @@ shape parameters. This shows that invertible neural networks may have
 large potential to help interpret small-angle scattering measurements.
 Ideally, we hope that this work is a first step towards a fully
 automated SAS data processing workflow.
+
+Software: [https://github.com/pbenner/ixs](https://github.com/pbenner/ixs)
 
 Introduction
 ============
@@ -80,7 +85,7 @@ corresponding intensity curves. This data is used to train our INN (i.e.
 estimate the parameters of the model) and we show that our model is
 capable of recovering size and shape parameters of the theoretical
 scatterers with high precision. In addition, we provide a software
-package of our model ( TODO: Github URL) that can be easily applied to
+package of our model that can be easily applied to
 other data sets. This allows researchers to train models that are
 capable of predicting size and shape parameters for their domain of
 interest, given that a sufficiently large data set of simulated or
@@ -142,7 +147,7 @@ data is shown in Figure [1](#fig1).
 
 #### Figure 1 {#fig1}
 
-![Figure 1](data/ixs/paper_fig01.png){#fig1}
+![Figure 1](data/ixs/paper_fig01.png)
 
 Mean and 95% quantile of synthetic intensity curves stratified by shape
 
@@ -180,13 +185,13 @@ of predictions.
 
 #### Figure 2 {#fig2}
 
-![Figure 2](data/ixs/paper_fig02.png){#fig2}
+![Figure 2](data/ixs/paper_fig02.png)
 
 Training and validation loss as a function of epoch during estimation of model parameters
 
 #### Figure 3 {#fig3}
 
-![Figure 3](data/ixs/paper_fig03.png){#fig3}
+![Figure 3](data/ixs/paper_fig03.png)
 
 Prediction accuracy of radii.
   : (a) Distributions of predicted and groundtruth radii (b) Distribution of differences between predicted and true radii. The mean absolute error (mae) is shown as table within the figure
@@ -196,7 +201,7 @@ Uncertainty quantification
 
 #### Figure 4 {#fig4}
 
-![Figure 4](data/ixs/paper_fig04.png){#fig4}
+![Figure 4](data/ixs/paper_fig04.png)
 
 Uncertainty quantification of radius predictions for a cylinder sample.
   : The uncertainty of the model is estimated by repeatedly computing radius predictions for a fixed cylinder scattering curve.
@@ -247,3 +252,8 @@ developed under NSF award DMR-0520547. SasView contains code developed
 with funding from the European Union's Horizon 2020 research and
 innovation programme under the SINE2020 project, grant agreement No
 654000.
+
+References
+==========
+
+
