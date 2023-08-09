@@ -138,7 +138,7 @@ each scattering angle $q$ by a random value drawn from a normal
 distribution with mean $\mu = 1$ and standard deviation $\sigma = 0.1$,
 which we selected because the resulting scattering intensities closely
 resemble experimental ones. The mean and 95% quantile of the simulated
-data is shown in [1](#fig1){reference-type="ref" reference="fig1"}.
+data is shown in Figure [1](#fig1).
 
 ![Mean and 95% quantile of synthetic intensity curves stratified by shape](data/ixs/paper_fig01.png){#fig1}
 
@@ -159,8 +159,7 @@ generative models and therefore allow to compute multiple inverse
 solutions that can be aggregated into a mean prediction and an
 uncertainty measure such as the standard deviation. A full description
 of the model and our modifications is provided in Section
-[4](#sec:methods). Our
-software package relies on the implementation of an existing RNVP model
+[4](#sec:methods). Our software package relies on the implementation of an existing RNVP model
 [@freia].
 
 To evaluate our model on the synthetic SAS data, we randomly divided the
@@ -182,10 +181,7 @@ of predictions.
 Uncertainty quantification
 --------------------------
 
-![**Uncertainty quantification of radius predictions for a cylinder
-sample.** The uncertainty of the model is estimated by repeatedly
-computing radius predictions for a fixed cylinder scattering
-curve.](data/ixs/paper_fig04.png){#fig4}
+![**Uncertainty quantification of radius predictions for a cylinder sample.** The uncertainty of the model is estimated by repeatedly computing radius predictions for a fixed cylinder scattering curve.](data/ixs/paper_fig04.png){#fig4}
 
 Discussion
 ==========
