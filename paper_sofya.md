@@ -183,12 +183,11 @@ training is converging well and that we observe almost no overfitting on
 the validation data. The test data is then used to evaluate the accuracy
 of predictions.
 
-#### Figure 2 {#fig2}
+#### {#fig2}
 
 ![Figure 2](data/ixs/paper_fig02.png)
 
-*Figure 2*{#fig10}
-  : Training and validation loss as a function of epoch during estimation of model parameters
+::Figure 2:: : raining and validation loss as a function of epoch during estimation of model parameters
 
 #### Figure 3 {#fig3}
 
