@@ -187,24 +187,22 @@ of predictions.
 
 ![Figure 2](data/ixs/paper_fig02.png)
 
-::Figure 2:: : raining and validation loss as a function of epoch during estimation of model parameters
+**Figure 2**: raining and validation loss as a function of epoch during estimation of model parameters
 
-#### Figure 3 {#fig3}
+#### &nbsp; {#fig3}
 
 ![Figure 3](data/ixs/paper_fig03.png)
 
-Prediction accuracy of radii.
-  : (a) Distributions of predicted and groundtruth radii (b) Distribution of differences between predicted and true radii. The mean absolute error (mae) is shown as table within the figure
+**Figure 3**: Prediction accuracy of radii. (a) Distributions of predicted and groundtruth radii (b) Distribution of differences between predicted and true radii. The mean absolute error (mae) is shown as table within the figure
 
 Uncertainty quantification
 --------------------------
 
-#### Figure 4 {#fig4}
+#### &nbsp; {#fig4}
 
 ![Figure 4](data/ixs/paper_fig04.png)
 
-Uncertainty quantification of radius predictions for a cylinder sample.
-  : The uncertainty of the model is estimated by repeatedly computing radius predictions for a fixed cylinder scattering curve.
+**Figure 4**: Uncertainty quantification of radius predictions for a cylinder sample. The uncertainty of the model is estimated by repeatedly computing radius predictions for a fixed cylinder scattering curve.
 
 Methods {#sec:methods}
 =======
@@ -255,5 +253,4 @@ innovation programme under the SINE2020 project, grant agreement No
 
 References
 ==========
-
 
