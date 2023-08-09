@@ -108,7 +108,7 @@ set to one for the scatterer and zero for the solvent. We decided to
 restrict the data set to three shapes, namely, spheres, hardspheres, and
 cylinders. For each of the shapes, we created 5000 samples.
 
-##### Table 1 {#tab:1}
+##### &nbsp; {#tab:1}
 
 |                       |cylinder                  |sphere                    |hard sphere               |
 |-----------------------|--------------------------|--------------------------|--------------------------|
@@ -118,8 +118,7 @@ cylinders. For each of the shapes, we created 5000 samples.
 |length polydispersity  |$\mathcal{N}(0.1, 0.03)$  |---                       |---                       |
 |volume fraction        |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |
 
-Distributions of parameters for generating synthetic data.
-  : The normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by their mean $\mu$ and standard deviation $\sigma$.
+**Table 1**: Distributions of parameters for generating synthetic data. The normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by their mean $\mu$ and standard deviation $\sigma$.
 
 The parameters for generating the synthetic data are given in
 Table [1](#tab:1). For all three
@@ -145,11 +144,11 @@ which we selected because the resulting scattering intensities closely
 resemble experimental ones. The mean and 95% quantile of the simulated
 data is shown in Figure [1](#fig1).
 
-#### Figure 1 {#fig1}
+#### &nbsp; {#fig1}
 
 ![Figure 1](data/ixs/paper_fig01.png)
 
-Mean and 95% quantile of synthetic intensity curves stratified by shape
+**Figure 1**: Mean and 95% quantile of synthetic intensity curves stratified by shape
 
 Prediction of size and shape parameters
 ---------------------------------------
