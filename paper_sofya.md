@@ -183,7 +183,7 @@ training is converging well and that we observe almost no overfitting on
 the validation data. The test data is then used to evaluate the accuracy
 of predictions.
 
-#### {#fig2}
+#### &nbsp; {#fig2}
 
 ![Figure 2](data/ixs/paper_fig02.png)
 
