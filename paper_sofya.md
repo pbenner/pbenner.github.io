@@ -5,6 +5,8 @@ Sofya Laskina, Brian R. Pauw, and Philipp Benner
 Eichen 87, 12205 Berlin, Germany
 : philipp.benner@bam.de, brian.pauw@bam.de
 
+[DRAFT]
+
 Abstract
 ========
 
@@ -234,12 +236,6 @@ computed by first randomly drawing a value $z$ and then computing the
 inverse $x = g([y, z])$. Multiple solutions $x$ can be computed by
 repeating this process, which then allows to provide summary statistics,
 such as mean and variance.
-
-Architecture
-------------
-
-Training
---------
 
 Acknowledgments
 ===============
