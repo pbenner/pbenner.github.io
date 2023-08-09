@@ -26,10 +26,14 @@ High-throughput material simulations are an integral part of modern materials sc
 
 Scattering techniques, such as small-angle X-ray or neutron scattering, provide information on the fine structure of materials by measuring the intensity of waves scattered via an interference process. While this interference process can be accurately described in mathematics as a Fourier transform of the probed electron density, not all the information contained therein is recorded in the measurement process. The information loss is of such a magnitude that the retrieval of practically-relevant structural information falls under the class of inverse problems. For analyzing single datasets, a bespoken model can usually be constructed. For processing larger quantities of data, however, such as collected at well-functioning laboratory instruments or large facilities, an initial clustering and indication of the class and size of scatterers involved would already be a good step forwards. A reliable, universal clustering method does not exist as yet. We attempt to address this problem using invertible neural networks trained on theoretical scatterers with their analytical SAS intensities. Somewhat surprisingly, our method is able to reliably identify size and shape parameters. This shows that invertible neural networks may have large potential to help interpret small-angle scattering measurements. Ideally, we hope that this work is a first step towards a fully automated SAS data processing workflow.
 
+##### References
+1. [PREPRINT](paper_sofya.html)
+
 ### Tissue-Specific Regulatory Information within Enhancer DNA Sequences ([M. Vingron](https://www.molgen.mpg.de/3897383/martin-vingron))
 
 Recent efforts to measure epigenetic marks across a wide variety of different cell types and tissues provide insights into the cell type-specific regulatory landscape. We use this data to study if there exists a correlate of epigenetic signals in the DNA sequence of enhancers and explore with computational methods to what degree such sequence patterns can be used to predict cell type-specific regulatory activity. By constructing classifiers that predict in which tissues enhancers are active, we are able to identify sequence features that might be recognized by the cell in order to regulate gene expression. While classification performances vary greatly between tissues, we show examples where our classifiers correctly predict tissue specific regulation from sequence alone. We also show that many of the informative patterns indeed harbor transcription factor footprints.
 
+##### References
 1. P. Benner, and M. Vingron. *Quantifying the Tissue-Specific Regulatory Information within Enhancer and Promoter DNA Sequences.* NAR Genomics and Bioinformatics 3.4 (2021)
 1. P. Benner, and M. Vingron. *ModHMM: A modular supra-Bayesian genome segmentation method.* Journal of Computational Biology 27.4 (2020): 442-457.
 
@@ -37,6 +41,7 @@ Recent efforts to measure epigenetic marks across a wide variety of different ce
 
 High-dimensional statistics deals with statistical inference when the number of parameters or features $p$ exceeds the number of observations $n$ (i.e. $p \gg n$). In this case, the parameter space must be constrained either by regularization or by selecting a small subset of $m \le n$ features. Feature selection through $\ell_1$-regularization combines the benefits of both approaches and has proven to yield good results in practice. However, the functional relation between the regularization strength $\lambda$ and the number of selected features $m$ is difficult to determine. Hence, parameters are typically estimated for all possible regularization strengths $\lambda$. These so-called regularization paths can be expensive to compute and most solutions may not even be of interest to the problem at hand. As an alternative, an algorithm is proposed that determines the $\ell_1$-regularization strength $\lambda$ iteratively for a fixed $m$. The algorithm can be used to compute leapfrog regularization paths by subsequently increasing $m$.
 
+##### References
 1. P. Benner. *Computing leapfrog regularization paths with applications to large-scale k-mer logistic regression.* Journal of Computational Biology 28.6 (2021): 560-569.
 
 ## Lectures
