@@ -62,7 +62,7 @@ classes can be determined remains an open question. Even an initial
 guess, however, would be helpful in tackling the vast amounts of data
 currently collected in laboratories and large facilities worldwide.
 
-Invertible neural networks (INNs) [@ardizzone2018; @behrmann2019] are a
+Invertible neural networks (INNs) [@ardizzone2018] [@behrmann2019][1] are a
 promising alternative to existing methods for estimating material
 characterstics from SAS measurements. These methods specifically address
 surjective problems, where the measurement data is not sufficient for
@@ -254,3 +254,4 @@ innovation programme under the SINE2020 project, grant agreement No
 References
 ==========
 
+[1] Jens Behrmann, Will Grathwohl, Ricky TQ Chen, David Duvenaud, and Jörn-Henrik Jacobsen. *Invertible residual networks. In International Conference on Machine Learning*, pages 573–582. PMLR, 2019.
