@@ -103,7 +103,8 @@ set to one for the scatterer and zero for the solvent. We decided to
 restrict the data set to three shapes, namely, spheres, hardspheres, and
 cylinders. For each of the shapes, we created 5000 samples.
 
-### Table 1 {#tab:1}
+##### Table 1 {#tab:1}
+
 |                       |cylinder                  |sphere                    |hard sphere               |
 |-----------------------|--------------------------|--------------------------|--------------------------|
 |radius                 |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |
@@ -116,7 +117,7 @@ Distributions of parameters for generating synthetic data.
   : The normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by their mean $\mu$ and standard deviation $\sigma$.
 
 The parameters for generating the synthetic data are given in
-[1](#tab:1){reference-type="ref" reference="tab:1"}. For all three
+Table [1](#tab:1). For all three
 shapes we have as parameters the *radius* and the *radius
 polydispersity*. Both parameters are assumed to follow a Gaussian
 distribution. While the distribution of the radius defines the variation
@@ -129,7 +130,7 @@ greater than the actual radius of the particle. Many such interactions
 exist that can adjust the effective radius compared to the real radius.
 The *volume fraction* parameter regulates how densely the simulation box
 is filled. It is drawn with equal probability from a set of 7 values
-(see [1](#tab:1){reference-type="ref" reference="tab:1"}). For the
+(see Table [1](#tab:1)). For the
 cylinders, the angular parameters are not specified, because they are
 not captured by one-dimensional scattering curves. Finally, we applied
 some noise to the simulations. The simulated intensity is multiplied at
