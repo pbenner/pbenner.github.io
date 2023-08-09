@@ -140,8 +140,7 @@ which we selected because the resulting scattering intensities closely
 resemble experimental ones. The mean and 95% quantile of the simulated
 data is shown in [1](#fig1){reference-type="ref" reference="fig1"}.
 
-![Mean and 95% quantile of synthetic intensity curves stratified by
-shape](data/ixs/paper_fig01.png){#fig1}
+![Mean and 95% quantile of synthetic intensity curves stratified by shape](data/ixs/paper_fig01.png){#fig1}
 
 Prediction of size and shape parameters
 ---------------------------------------
@@ -176,13 +175,9 @@ training is converging well and that we observe almost no overfitting on
 the validation data. The test data is then used to evaluate the accuracy
 of predictions.
 
-![(a) Training and validation loss as a function of epoch during
-estimation of model parameters](data/ixs/paper_fig02.png){#fig2 width="90%"}
+![(a) Training and validation loss as a function of epoch during estimation of model parameters](data/ixs/paper_fig02.png){#fig2}
 
-![**Prediction accuracy of radii.** (a) Distributions of predicted and
-groundtruth radii (b) Distribution of differences between predicted and
-true radii. The mean absolute error (mae) is shown as table within the
-figure](data/ixs/paper_fig03.png){#fig3 width="90%"}
+![**Prediction accuracy of radii.** (a) Distributions of predicted and groundtruth radii (b) Distribution of differences between predicted and true radii. The mean absolute error (mae) is shown as table within the figure](data/ixs/paper_fig03.png){#fig3}
 
 Uncertainty quantification
 --------------------------
@@ -190,7 +185,7 @@ Uncertainty quantification
 ![**Uncertainty quantification of radius predictions for a cylinder
 sample.** The uncertainty of the model is estimated by repeatedly
 computing radius predictions for a fixed cylinder scattering
-curve.](data/ixs/paper_fig04.png){#fig4 width="40%"}
+curve.](data/ixs/paper_fig04.png){#fig4}
 
 Discussion
 ==========
