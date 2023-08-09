@@ -103,6 +103,7 @@ set to one for the scatterer and zero for the solvent. We decided to
 restrict the data set to three shapes, namely, spheres, hardspheres, and
 cylinders. For each of the shapes, we created 5000 samples.
 
+### Table 1 {#tab:1}
 |                       |cylinder                  |sphere                    |hard sphere               |
 |-----------------------|--------------------------|--------------------------|--------------------------|
 |radius                 |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |
@@ -111,11 +112,8 @@ cylinders. For each of the shapes, we created 5000 samples.
 |length polydispersity  |$\mathcal{N}(0.1, 0.03)$  |---                       |---                       |
 |volume fraction        |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |
 
-  : Distributions of parameters for generating synthetic data. The
-  normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by
-  their mean $\mu$ and standard deviation $\sigma$. The volume fraction
-  is drawn from a uniform distribution (U) on a given set of values.
-
+Distributions of parameters for generating synthetic data.
+  : The normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by their mean $\mu$ and standard deviation $\sigma$.
 
 The parameters for generating the synthetic data are given in
 [1](#tab:1){reference-type="ref" reference="tab:1"}. For all three
