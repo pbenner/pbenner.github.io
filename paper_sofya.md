@@ -141,7 +141,7 @@ resemble experimental ones. The mean and 95% quantile of the simulated
 data is shown in [1](#fig1){reference-type="ref" reference="fig1"}.
 
 ![Mean and 95% quantile of synthetic intensity curves stratified by
-shape](data/ixs/paper_fig01.png){#fig1 width="90%"}
+shape](data/ixs/paper_fig01.png){#fig1}
 
 Prediction of size and shape parameters
 ---------------------------------------
@@ -159,8 +159,8 @@ appropriate for SAS data, because they belong to the family of
 generative models and therefore allow to compute multiple inverse
 solutions that can be aggregated into a mean prediction and an
 uncertainty measure such as the standard deviation. A full description
-of the model and our modifications is provided in
-[4](#sec:methods){reference-type="ref" reference="sec:methods"}. Our
+of the model and our modifications is provided in Section
+[4](#sec:methods). Our
 software package relies on the implementation of an existing RNVP model
 [@freia].
 
@@ -168,10 +168,10 @@ To evaluate our model on the synthetic SAS data, we randomly divided the
 data into train (90%) and test (10%) data. On the training data, we
 estimated model parameters using *adaptive momentum estimation* (Adam)
 and a plateau scheduler to automatically reduce the learning rate (see
-[4](#sec:methods){reference-type="ref" reference="sec:methods"}) when
+Section [4](#sec:methods)) when
 needed. A small fraction (10%) of the training data is set apart as
 validation set to stop training before the model starts overfitting.
-[2](#fig2){reference-type="ref" reference="fig2"} (a) shows that the
+Figure [2](#fig2) (a) shows that the
 training is converging well and that we observe almost no overfitting on
 the validation data. The test data is then used to evaluate the accuracy
 of predictions.
