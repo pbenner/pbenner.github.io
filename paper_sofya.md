@@ -178,7 +178,7 @@ and a plateau scheduler to automatically reduce the learning rate (see
 Section [4](#sec:methods)) when
 needed. A small fraction (10%) of the training data is set apart as
 validation set to stop training before the model starts overfitting.
-Figure [2](#fig2) (a) shows that the
+Figure [2](#fig2) shows that the
 training is converging well and that we observe almost no overfitting on
 the validation data. The test data is then used to evaluate the accuracy
 of predictions.
@@ -187,7 +187,8 @@ of predictions.
 
 ![Figure 2](data/ixs/paper_fig02.png)
 
-Training and validation loss as a function of epoch during estimation of model parameters
+*Figure 2*{#fig10}
+  : Training and validation loss as a function of epoch during estimation of model parameters
 
 #### Figure 3 {#fig3}
 
