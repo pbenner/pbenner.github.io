@@ -27,7 +27,8 @@ High-throughput material simulations are an integral part of modern materials sc
 Scattering techniques, such as small-angle X-ray or neutron scattering, provide information on the fine structure of materials by measuring the intensity of waves scattered via an interference process. While this interference process can be accurately described in mathematics as a Fourier transform of the probed electron density, not all the information contained therein is recorded in the measurement process. The information loss is of such a magnitude that the retrieval of practically-relevant structural information falls under the class of inverse problems. For analyzing single datasets, a bespoken model can usually be constructed. For processing larger quantities of data, however, such as collected at well-functioning laboratory instruments or large facilities, an initial clustering and indication of the class and size of scatterers involved would already be a good step forwards. A reliable, universal clustering method does not exist as yet. We attempt to address this problem using invertible neural networks trained on theoretical scatterers with their analytical SAS intensities. Somewhat surprisingly, our method is able to reliably identify size and shape parameters. This shows that invertible neural networks may have large potential to help interpret small-angle scattering measurements. Ideally, we hope that this work is a first step towards a fully automated SAS data processing workflow.
 
 ##### References
-1. [PREPRINT](paper_sofya.html)
+1. [Preprint](paper_sofya.html)
+1. [Github](https://github.com/pbenner/ixs/)
 
 ### Tissue-Specific Regulatory Information within Enhancer DNA Sequences ([M. Vingron](https://www.molgen.mpg.de/3897383/martin-vingron))
 
@@ -87,8 +88,12 @@ Statistics background:
   [[Github]](https://github.com/pbenner/double-descent)
 - Compute performance measures of classification results
   [[Github]](https://github.com/pbenner/classifierPerformance)
-- Active learning library
+- Active learning / adaptive sampling library for one-dimensional ordinal predictor variables and categorical responses
   [[Github]](https://github.com/pbenner/adaptive-sampling)
+- Active learning library based on Gaussian processes
+  [[Github]](https://github.com/pbenner/adaptive-sampling.gp)
+- Backpropagation for dense networks in Lisp
+  [[Github]](https://github.com/pbenner/lisp-backprop)
 
 ### Bioinformatics
 
@@ -116,7 +121,7 @@ Statistics background:
 
 - A. Naik, C. Ertural, N. Dhamrait, P, Benner, J. George. *A Quantum-Chemical Bonding Database for Solid-State Materials.* arXiv preprint arXiv:2304.02726 (2023).
 - B. R. Pauw, S. Laskina, A. Naik, G. J. Smales, J. George, I. Breßler, P. Benner. *``Ultima Ratio'': Simulating wide-range X-ray scattering and diffraction.* arXiv preprint arXiv:2303.13435 (2023)
-- Y. Nowatzky, P. Benner, K. Reinert, T. Muth. *Mistle: bringing spectral library predictions to metaproteomics with an efficient search index.* bioRxiv (2022)
+- Y. Nowatzky, P. Benner, K. Reinert, T. Muth. *Mistle: bringing spectral library predictions to metaproteomics with an efficient search index.* Bioinformatics, btad376 (2023)
 - P. Benner, and M. Vingron. *Quantifying the Tissue-Specific Regulatory Information within Enhancer and Promoter DNA Sequences.* NAR Genomics and Bioinformatics 3.4 (2021)
 - P. Benner. *Computing leapfrog regularization paths with applications to large-scale k-mer logistic regression.* Journal of Computational Biology 28.6 (2021): 560-569.
 - P. Benner, and M. Vingron. *ModHMM: A modular supra-Bayesian genome segmentation method.* Journal of Computational Biology 27.4 (2020): 442-457.
