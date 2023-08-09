@@ -104,13 +104,13 @@ restrict the data set to three shapes, namely, spheres, hardspheres, and
 cylinders. For each of the shapes, we created 5000 samples.
 
 ::: {#tab:1}
-  |                       |cylinder                  |sphere                    |hard sphere               |
-  |-----------------------|--------------------------|--------------------------|--------------------------|
-  |radius                 |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |
-  |radius polydispersity  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$  |
-  |length                 |$\mathcal{N}(10, 5)$      |---                       |---                       |
-  |length polydispersity  |$\mathcal{N}(0.1, 0.03)$  |---                       |---                       |
-  |volume fraction        |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |
+|                       |cylinder                  |sphere                    |hard sphere               |
+|-----------------------|--------------------------|--------------------------|--------------------------|
+|radius                 |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |$\mathcal{N}(2, 1)$       |
+|radius polydispersity  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$  |$\mathcal{N}(0.1, 0.03)$  |
+|length                 |$\mathcal{N}(10, 5)$      |---                       |---                       |
+|length polydispersity  |$\mathcal{N}(0.1, 0.03)$  |---                       |---                       |
+|volume fraction        |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |$\mathcal{N}(0.2, 0.01)$  |
 
   : Distributions of parameters for generating synthetic data. The
   normal distributions $\mathcal{N}(\mu, \sigma)$ are parameterized by
