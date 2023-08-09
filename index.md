@@ -70,6 +70,10 @@ Model Evaluation and Explainability:
 Statistics background:
 - Decision Making under Uncertainty [[Slides]](data/mlb-slides/17_-_decision_making.pdf)
 
+### Machine Learning in Materials Science - FU Berlin
+
+Seminar at FU Berlin together with [A. Kister](https://bamescience.github.io/team/alexander/index.html)
+
 ## Software projects
 
 ### Numerics, Statistics, ML
