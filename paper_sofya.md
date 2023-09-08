@@ -36,7 +36,7 @@ large potential to help interpret small-angle scattering measurements.
 Ideally, we hope that this work is a first step towards a fully
 automated SAS data processing workflow.
 
-Software: [https://github.com/pbenner/ixs](https://github.com/pbenner/ixs)
+Software: [https://github.com/pbenner/ixs](https://github.com/pbenner/iss)
 
 Introduction
 ============
