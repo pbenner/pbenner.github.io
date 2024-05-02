@@ -52,7 +52,7 @@ High-dimensional statistics deals with statistical inference when the number of 
 [Lecture](https://www.fu-berlin.de/vv/en/lv/737408?m=428903&pc=575084&sm=682080) at the Mathematics and Computer Science Department of [Free University of Berlin](https://www.mi.fu-berlin.de/) together with [H. Richard](http://www.lgm.upmc.fr/hrichard/)
 
 Statistics:
-- Probability Basics [[Slides]](data/02_-_probability.pdf)
+- Probability Basics [[Slides]](data/mlb-slides/02_-_probability.pdf)
 - Decision Making under Uncertainty [[Slides]](data/mlb-slides/17_-_decision_making.pdf)
 
 Machine Learning Models:
