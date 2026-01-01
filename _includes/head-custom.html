@@ -2,7 +2,15 @@
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$']],
+      inlineMath: [
+        ['$', '$'],
+        ['\\(', '\\)'],
+      ],
+      displayMath: [
+        ['$$', '$$'],
+        ['\\[', '\\]'],
+      ],
+      packages: { '[+]': ['ams'] },
     },
   };
 </script>

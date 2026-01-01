@@ -6,6 +6,7 @@ nav_title: About
 nav_order: 1
 show_title: false
 hero: true
+math: true
 hero_kicker: Philipp Benner
 hero_title: Statistics and machine learning for materials science and bioinformatics.
 hero_lead: Researcher in statistics and machine learning at BAM.
