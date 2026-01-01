@@ -10,8 +10,8 @@ social:
   - label: ORCID
     url: https://orcid.org/0000-0002-0912-8137
     header: true
-  - label: Twitter
-    url: https://twitter.com/PhilippBenner2
+  - label: Bluesky
+    url: https://bsky.app/profile/did:plc:k3ylg6iairoobgc4snpydlii
   - label: Email
     url: mailto:philipp.benner@bam.de
     header: true
