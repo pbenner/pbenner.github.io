@@ -1,0 +1,48 @@
+:root {
+  --brand-blue: #0969da;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  padding: 8px 10px;
+  background: var(--color-canvas-default);
+  border: 1px solid var(--color-border-default);
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 12px;
+}
+
+.text-brand-blue {
+  color: var(--brand-blue) !important;
+}
+
+.alt-lead {
+  font-size: 1.1rem;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.avatar-placeholder {
+  width: 92px;
+  height: 92px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border-default);
+  background: var(--color-canvas-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body {
+  padding-bottom: 32px;
+}
