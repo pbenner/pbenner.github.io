@@ -1,5 +1,20 @@
 title: Philipp Benner
-description: Researcher at <a href="https://www.bam.de">BAM</a>. <a href="https://github.com/pbenner">[Github]</a>, <a href="https://twitter.com/PhilippBenner2">[Twitter]</a>, <a href="https://orcid.org/0000-0002-0912-8137">[ORCID]</a>, <a href= "mailto:philipp.benner@bäm.de">[Email:s/ä/a/]</a>
+description: Researcher in statistics and machine learning at BAM.
+tagline: Statistics & machine learning for materials science and bioinformatics.
+social:
+  - label: Group
+    url: https://bamescience.github.io/
+  - label: GitHub
+    url: https://github.com/pbenner
+    header: true
+  - label: ORCID
+    url: https://orcid.org/0000-0002-0912-8137
+    header: true
+  - label: Twitter
+    url: https://twitter.com/PhilippBenner2
+  - label: Email
+    url: mailto:philipp.benner@bam.de
+    header: true
 kramdown:
   input: GFM
   math_engine: mathjax

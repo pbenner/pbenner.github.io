@@ -5,11 +5,14 @@ nav: true
 nav_title: About
 nav_order: 1
 show_title: false
+hero: true
 ---
 
-I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
+## About
 
-## Selected Research Projects
+I’m a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information.
+
+## Research
 
 ### Fragmentation site prediction for non-targeted metabolomics using graph neural networks ([Y. Nowatzky](https://bamescience.github.io/team/yannek), [T. Muth](https://bamescience.github.io/team/thilo/))
 
