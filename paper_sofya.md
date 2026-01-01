@@ -1,3 +1,13 @@
+---
+layout: default
+title: Paper (draft)
+nav: true
+nav_title: Paper draft
+nav_order: 2
+show_title: false
+math: true
+---
+
 # Determining Size and Shape Parameters from Small-Angle Scattering Data using Invertible Neural Networks
 
 Sofya Laskina, Brian R. Pauw, and Philipp Benner

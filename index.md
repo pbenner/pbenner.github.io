@@ -1,3 +1,12 @@
+---
+layout: default
+title: Home
+nav: true
+nav_title: About
+nav_order: 1
+show_title: false
+---
+
 I'm a researcher in statistics and machine learning for materials science and bioinformatics. See our group [website](https://bamescience.github.io/) for more information!
 
 ## Selected Research Projects
