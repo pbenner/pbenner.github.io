@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Paper (draft)
-nav: true
-nav_title: Paper draft
-nav_order: 2
 show_title: false
 math: true
 ---
